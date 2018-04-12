@@ -15,7 +15,7 @@ Since this is only for testing, it should be added as a `:dev` dependency:
 To validate a vector-like data structure, you can use `(assert-vector-like empty-collection element-generator)`.  For instance:
 
 ```clj
-> (require '[collection-check :refer :all])
+> (require '[collection-check.core :refer :all])
 nil
 > (assert-vector-like [] simple-check.generators/int)
 true
